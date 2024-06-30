@@ -1,21 +1,60 @@
 proxies:
-- name: BUG1
+- name: BUG-1ILPED SG
+  server: 104.26.6.171
+  port: 443
+  type: trojan
+  password: 13240e13-5e78-40a6-b90a-c054502220e5
+  network: ws
+  sni: rlzftawa.pisangku.studio
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: /trojan-ws
+    headers:
+        Host: rlzftawa.pisangku.studio
+- name: BUG-2ILPED SG
+  server: 104.26.7.171
+  port: 443
+  type: trojan
+  password: 13240e13-5e78-40a6-b90a-c054502220e5
+  network: ws
+  sni: rlzftawa.pisangku.studio
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: /trojan-ws
+    headers:
+        Host: rlzftawa.pisangku.studio
+- name: BUG-3ILPED SG
+  server: 104.18.25.139
+  port: 443
+  type: trojan
+  password: 13240e13-5e78-40a6-b90a-c054502220e5
+  network: ws
+  sni: rlzftawa.pisangku.studio
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: /trojan-ws
+    headers:
+        Host: rlzftawa.pisangku.studio
+- name: BUG-4ILPED SG
   type: vmess
   server: 104.26.6.171
   port: 80
-  uuid: d03f4b21-f0a0-4083-b793-449f54892d5b
+  uuid: 941cb9c6-6887-4613-805b-e88d047ad177
   alterId: 0
   cipher: auto
   udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 2k2q69.onelimited.my.id
+  tls: false
+  skip-cert-verify: false
+  servername: rzlftwaa.pisangku.studio
   network: ws
   ws-opts:
     path: /vmess
     headers:
-      Host: 2k2q69.onelimited.my.id
-- name: BUG2
+      Host: rzlftwaa.pisangku.studio
+- name: BUG-5ILPED SG
   type: vmess
   server: 104.26.6.171
   port: 80
@@ -23,11 +62,27 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-  tls: true
-  skip-cert-verify: true
+  tls: false
+  skip-cert-verify: false
   servername: rzf.zidstore.biz.id
   network: ws
   ws-opts:
     path: /vmess
     headers:
       Host: rzf.zidstore.biz.id
+- name: BUG-6ILPED SG
+  type: vmess
+  server: 104.26.6.171
+  port: 80
+  uuid: d03f4b21-f0a0-4083-b793-449f54892d5b
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: false
+  servername: 2k2q69.onelimited.my.id
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: 2k2q69.onelimited.my.id
