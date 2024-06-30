@@ -1,3 +1,4 @@
+proxies:
 - name: BUG1
   type: vmess
   server: 104.26.6.171
