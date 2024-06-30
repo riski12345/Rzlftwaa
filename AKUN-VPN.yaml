@@ -1,0 +1,32 @@
+- name: BUG1
+  type: vmess
+  server: 104.26.6.171
+  port: 80
+  uuid: d03f4b21-f0a0-4083-b793-449f54892d5b
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 2k2q69.onelimited.my.id
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: 2k2q69.onelimited.my.id
+- name: BUG2
+  type: vmess
+  server: 104.26.6.171
+  port: 80
+  uuid: 29226b62-5647-4742-879a-758ddd86f130
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: rzf.zidstore.biz.id
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: rzf.zidstore.biz.id
