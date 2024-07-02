@@ -26,7 +26,7 @@ proxies:
     headers:
         Host: rlzftawa.pisangku.studio
 - name: BUG-3ILPED SG
-  server: 104.18.25.139
+  server: 104.26.7.171
   port: 443
   type: trojan
   password: 93a6ba5e-3a60-405a-8227-681655472c34
@@ -39,7 +39,7 @@ proxies:
     headers:
         Host: rzf.zidstore.biz.id
 - name: BUG-4ILPED SG
-  server: 104.18.25.139
+  server: 104.26.7.171
   port: 443
   type: trojan
   password: 46be8770-10f0-4971-ac67-97a94b1b2bb5
