@@ -81,8 +81,8 @@ proxies:
   tls: false
   skip-cert-verify: false
   servername: 2k2q69.onelimited.my.id
-  network: httpugrade
+  network: ws
   ws-opts:
-    path: /vmessupgrade
+    path: /vmessws
     headers:
       Host: 2k2q69.onelimited.my.id
