@@ -99,3 +99,16 @@ proxies:
     path: /vmessws
     headers:
       Host: rzf.zidstore.biz.id
+- name: BUG-8ILPED ID
+  server: 104.26.7.171
+  port: 443
+  type: trojan
+  password: 095c135e-2f78-456d-b929-9cb5d444a659
+  network: ws
+  sni: vpsid.rzlftwaa.online
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: /yt.
+    headers:
+        Host: vpsid.rzlftwaa.online
