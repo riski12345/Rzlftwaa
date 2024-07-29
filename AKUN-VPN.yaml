@@ -103,12 +103,12 @@ proxies:
   server: 104.26.7.171
   port: 443
   type: trojan
-  password: 095c135e-2f78-456d-b929-9cb5d444a659
+  password: 2f14c232-af27-48bb-9367-52b21211026c
   network: ws
   sni: vpsid.rzlftwaa.online
   skip-cert-verify: true
   udp: true
   ws-opts:
-    path: /trojan
+    path: /trojan-ws
     headers:
         Host: vpsid.rzlftwaa.online
