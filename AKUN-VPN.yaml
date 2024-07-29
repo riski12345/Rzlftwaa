@@ -109,6 +109,6 @@ proxies:
   skip-cert-verify: true
   udp: true
   ws-opts:
-    path: /yt.
+    path: /trojan
     headers:
         Host: vpsid.rzlftwaa.online
