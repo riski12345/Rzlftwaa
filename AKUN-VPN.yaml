@@ -99,11 +99,11 @@ proxies:
     path: /vmessws
     headers:
       Host: rzf.zidstore.biz.id
-- name: BUG-8ILPED ID
-  server: 104.26.7.171
+- name: HERZA
+  server: 104.26.6.171
   port: 443
   type: trojan
-  password: 2f14c232-af27-48bb-9367-52b21211026c
+  password: 4b07cb1b-238a-4eff-ae0a-adaa9148dc58
   network: ws
   sni: vpsid.rzlftwaa.online
   skip-cert-verify: true
@@ -112,3 +112,19 @@ proxies:
     path: /trojan-ws
     headers:
         Host: vpsid.rzlftwaa.online
+- name: IKD
+  type: vmess
+  server: 104.26.6.171
+  port: 443
+  uuid: 61ed18bc-649f-4d21-9791-c93d4d060256
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ikd.rzlftwaa.online
+  network: ws
+  ws-opts:
+    path: /vmess-ws
+    headers:
+      Host: ikd.rzlftwaa.online
