@@ -51,23 +51,7 @@ proxies:
     path: /trojanws
     headers:
         Host: 2k2q69.onelimited.my.id
-- name: WIFI PAK ASEPSG
-  type: vmess
-  server: 104.26.6.171
-  port: 80
-  uuid: d53d6ddc-6510-4054-ba79-0290b4e5ba7f
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: false
-  servername: 2k2q69.onelimited.my.id
-  network: ws
-  ws-opts:
-    path: /vmessws
-    headers:
-      Host: 2k2q69.onelimited.my.id
-- name: BUG-6ILPED SG
+- name: BUG-6ILPED SG Pa Asep
   type: vmess
   server: 104.26.6.171
   port: 80
@@ -99,7 +83,7 @@ proxies:
     path: /vmessws
     headers:
       Host: rzf.zidstore.biz.id
-- name: HERZA
+- name: HERZA Pa Asep
   server: 104.26.6.171
   port: 443
   type: trojan
@@ -112,7 +96,7 @@ proxies:
     path: /trojan-ws
     headers:
         Host: vpsid.rzlftwaa.online
-- name: IKD
+- name: IKD Pak Asep
   type: vmess
   server: 104.26.6.171
   port: 443
