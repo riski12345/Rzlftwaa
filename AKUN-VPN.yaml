@@ -64,7 +64,7 @@ proxies:
   servername: 2k2q69.onelimited.my.id
   network: ws
   ws-opts:
-    path: /vmess
+    path: /vmessws
     headers:
       Host: 2k2q69.onelimited.my.id
 - name: BUG-6ILPED SG
