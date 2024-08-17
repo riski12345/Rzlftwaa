@@ -3,28 +3,28 @@ proxies:
   server: 104.26.6.171
   port: 443
   type: trojan
-  password: 13240e13-5e78-40a6-b90a-c054502220e5
+  password: 3a86149f-0c3c-4383-8b0a-cd07eb2abba8
   network: ws
-  sni: rlzftawa.pisangku.studio
+  sni: rzf.zidstore.biz.id
   skip-cert-verify: true
   udp: true
   ws-opts:
     path: /trojan-ws
     headers:
-        Host: rlzftawa.pisangku.studio
+        Host: rzf.zidstore.biz.id
 - name: BUG-2ILPED SG
   server: 104.26.7.171
   port: 443
   type: trojan
-  password: 13240e13-5e78-40a6-b90a-c054502220e5
+  password: 6b4ca5c3-da7a-474e-8827-0525b9c3cfcb
   network: ws
-  sni: rlzftawa.pisangku.studio
+  sni: 2k2q69.onelimited.my.id
   skip-cert-verify: true
   udp: true
   ws-opts:
     path: /trojan-ws
     headers:
-        Host: rlzftawa.pisangku.studio
+        Host: 2k2q69.onelimited.my.id
 - name: BUG-3ILPED SG
   server: 104.26.7.171
   port: 443
@@ -51,7 +51,7 @@ proxies:
     path: /trojanws
     headers:
         Host: 2k2q69.onelimited.my.id
-- name: BUG-6ILPED SG Pa Asep
+- name: BUG-5ILPED SG Pa Asep
   type: vmess
   server: 104.26.6.171
   port: 80
@@ -67,7 +67,7 @@ proxies:
     path: /vmessws
     headers:
       Host: 2k2q69.onelimited.my.id
-- name: BUG-7ILPED SG
+- name: BUG-6ILPED SG
   type: vmess
   server: 104.26.6.171
   port: 80
@@ -83,32 +83,19 @@ proxies:
     path: /vmessws
     headers:
       Host: rzf.zidstore.biz.id
-- name: HERZA Pa Asep
-  server: 104.26.6.171
-  port: 443
-  type: trojan
-  password: 4b07cb1b-238a-4eff-ae0a-adaa9148dc58
-  network: ws
-  sni: vpsid.rzlftwaa.online
-  skip-cert-verify: true
-  udp: true
-  ws-opts:
-    path: /trojan-ws
-    headers:
-        Host: vpsid.rzlftwaa.online
-- name: IKD Pak Asep
+- name: Pak Asep
   type: vmess
   server: 104.26.6.171
   port: 443
-  uuid: 61ed18bc-649f-4d21-9791-c93d4d060256
+  uuid: e10ca6a9-7dc1-4903-b47a-d68aaa192e2a
   alterId: 0
   cipher: auto
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: ikd.rzlftwaa.online
+  servername: 2k2q69.onelimited.my.id
   network: ws
   ws-opts:
     path: /vmess-ws
     headers:
-      Host: ikd.rzlftwaa.online
+      Host: 2k2q69.onelimited.my.id
