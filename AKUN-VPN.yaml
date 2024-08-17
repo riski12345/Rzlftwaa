@@ -22,7 +22,7 @@ proxies:
   skip-cert-verify: true
   udp: true
   ws-opts:
-    path: /trojan-ws
+    path: /trojanws
     headers:
         Host: 2k2q69.onelimited.my.id
 - name: BUG-3ILPED SG
@@ -96,6 +96,6 @@ proxies:
   servername: 2k2q69.onelimited.my.id
   network: ws
   ws-opts:
-    path: /vmess-ws
+    path: /vmessws
     headers:
       Host: 2k2q69.onelimited.my.id
