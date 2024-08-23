@@ -3,15 +3,15 @@ proxies:
   server: 104.26.6.171
   port: 443
   type: trojan
-  password: 3a86149f-0c3c-4383-8b0a-cd07eb2abba8
+  password: 46be8770-10f0-4971-ac67-97a94b1b2bb5
   network: ws
-  sni: rzf.zidstore.biz.id
+  sni: 2k2q69.onelimited.my.id
   skip-cert-verify: true
   udp: true
   ws-opts:
-    path: /trojan-ws
+    path: /trojanws
     headers:
-        Host: rzf.zidstore.biz.id
+        Host: 2k2q69.onelimited.my.id
 - name: BUG-2ILPED SG
   server: 104.26.7.171
   port: 443
@@ -42,15 +42,15 @@ proxies:
   server: 104.26.7.171
   port: 443
   type: trojan
-  password: 46be8770-10f0-4971-ac67-97a94b1b2bb5
+  password: 3a86149f-0c3c-4383-8b0a-cd07eb2abba8
   network: ws
-  sni: 2k2q69.onelimited.my.id
+  sni: rzf.zidstore.biz.id
   skip-cert-verify: true
   udp: true
   ws-opts:
-    path: /trojanws
+    path: /trojan-ws
     headers:
-        Host: 2k2q69.onelimited.my.id
+        Host: rzf.zidstore.biz.id
 - name: BUG-5ILPED SG Pa Asep
   type: vmess
   server: 104.26.6.171
@@ -99,3 +99,5 @@ proxies:
     path: /vmessws
     headers:
       Host: 2k2q69.onelimited.my.id
+
+
