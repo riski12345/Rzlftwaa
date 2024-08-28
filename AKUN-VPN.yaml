@@ -13,7 +13,7 @@ proxies:
     headers:
         Host: 2k2q69.onelimited.my.id
 - name: BUG-2ILPED SG
-  server: 104.26.7.171
+  server: 104.26.6.171
   port: 443
   type: trojan
   password: 6b4ca5c3-da7a-474e-8827-0525b9c3cfcb
@@ -26,7 +26,7 @@ proxies:
     headers:
         Host: 2k2q69.onelimited.my.id
 - name: BUG-3ILPED SG
-  server: 104.26.7.171
+  server: 104.26.6.171
   port: 443
   type: trojan
   password: 93a6ba5e-3a60-405a-8227-681655472c34
@@ -39,7 +39,7 @@ proxies:
     headers:
         Host: rzf.zidstore.biz.id
 - name: BUG-4ILPED SG
-  server: 104.26.7.171
+  server: 104.26.6.171
   port: 443
   type: trojan
   password: 3a86149f-0c3c-4383-8b0a-cd07eb2abba8
