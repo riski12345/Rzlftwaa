@@ -28,3 +28,36 @@ proxies:
     path: /trojan-ws
     headers:
         Host: sgp.rzlftwaa.online
+- name: SINGAPURA 3
+  type: vmess
+  server: 104.26.6.171
+  port: 80
+  uuid: 3354bb03-809c-4bea-8502-ba7bb7ac1055
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: false
+  servername: rzf.zidstore.biz.id
+  network: ws
+  ws-opts:
+    path: /vmessws
+    headers:
+      Host: rzf.zidstore.biz.id
+- name: SINGAPURA 4
+  type: vmess
+  server: 104.26.6.171
+  port: 443
+  uuid: e10ca6a9-7dc1-4903-b47a-d68aaa192e2a
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 2k2q69.onelimited.my.id
+  network: ws
+  ws-opts:
+    path: /vmess-ws
+    headers:
+      Host: 2k2q69.onelimited.my.id
+
