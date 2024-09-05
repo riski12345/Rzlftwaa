@@ -1,103 +1,31 @@
 proxies:
-- name: BUG-1ILPED SG
-  server: 104.26.6.171
-  port: 443
-  type: trojan
-  password: 46be8770-10f0-4971-ac67-97a94b1b2bb5
-  network: ws
-  sni: 2k2q69.onelimited.my.id
-  skip-cert-verify: true
-  udp: true
-  ws-opts:
-    path: /trojanws
-    headers:
-        Host: 2k2q69.onelimited.my.id
-- name: BUG-2ILPED SG
-  server: 104.26.6.171
-  port: 443
-  type: trojan
-  password: 6b4ca5c3-da7a-474e-8827-0525b9c3cfcb
-  network: ws
-  sni: 2k2q69.onelimited.my.id
-  skip-cert-verify: true
-  udp: true
-  ws-opts:
-    path: /trojanws
-    headers:
-        Host: 2k2q69.onelimited.my.id
-- name: BUG-3ILPED SG
-  server: 104.26.6.171
-  port: 443
-  type: trojan
-  password: 93a6ba5e-3a60-405a-8227-681655472c34
-  network: ws
-  sni: rzf.zidstore.biz.id
-  skip-cert-verify: true
-  udp: true
-  ws-opts:
-    path: /trojan-ws
-    headers:
-        Host: rzf.zidstore.biz.id
-- name: BUG-4ILPED SG
-  server: 104.26.6.171
-  port: 443
-  type: trojan
-  password: 3a86149f-0c3c-4383-8b0a-cd07eb2abba8
-  network: ws
-  sni: rzf.zidstore.biz.id
-  skip-cert-verify: true
-  udp: true
-  ws-opts:
-    path: /trojan-ws
-    headers:
-        Host: rzf.zidstore.biz.id
-- name: BUG-5ILPED SG Pa Asep
-  type: vmess
-  server: 104.26.6.171
-  port: 80
-  uuid: 404205b3-1532-457b-8a7d-64592cb126e7
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: false
-  servername: 2k2q69.onelimited.my.id
-  network: ws
-  ws-opts:
-    path: /vmessws
-    headers:
-      Host: 2k2q69.onelimited.my.id
-- name: BUG-6ILPED SG
-  type: vmess
-  server: 104.26.6.171
-  port: 80
-  uuid: 3354bb03-809c-4bea-8502-ba7bb7ac1055
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: false
-  servername: rzf.zidstore.biz.id
-  network: ws
-  ws-opts:
-    path: /vmessws
-    headers:
-      Host: rzf.zidstore.biz.id
-- name: Pak Asep
+- name: SINGAPURA 1
   type: vmess
   server: 104.26.6.171
   port: 443
-  uuid: e10ca6a9-7dc1-4903-b47a-d68aaa192e2a
+  uuid:
+0943e5dc-5c38-48a7-97de-8abe8620161a
   alterId: 0
   cipher: auto
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: 2k2q69.onelimited.my.id
+  servername: sgp.rzlftwaa.online
   network: ws
   ws-opts:
     path: /vmessws
     headers:
-      Host: 2k2q69.onelimited.my.id
-
-
+      Host: sgp.rzlftwaa.online
+- name: SINGAPURA 2
+  server: 104.26.6.171
+  port: 443
+  type: trojan
+  password: e59dfce9-5f6e-4ffa-84f4-3ab504498548
+  network: ws
+  sni: sgp.rzlftwaa.online
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: /trojan-ws
+    headers:
+        Host: sgp.rzlftwaa.online
