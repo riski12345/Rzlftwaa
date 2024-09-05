@@ -3,8 +3,7 @@ proxies:
   type: vmess
   server: 104.26.6.171
   port: 443
-  uuid:
-0943e5dc-5c38-48a7-97de-8abe8620161a
+  uuid: 0943e5dc-5c38-48a7-97de-8abe8620161a
   alterId: 0
   cipher: auto
   udp: true
