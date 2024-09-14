@@ -48,16 +48,16 @@ proxies:
   type: vmess
   server: 104.26.6.171
   port: 443
-  uuid: e10ca6a9-7dc1-4903-b47a-d68aaa192e2a
+  uuid: 692905c1-0d44-4027-91e3-c9a4c5a16ed6
   alterId: 0
   cipher: auto
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: 2k2q69.onelimited.my.id
+  servername: sgp.rzlftwaa.online
   network: ws
   ws-opts:
     path: /vmess-ws
     headers:
-      Host: 2k2q69.onelimited.my.id
+      Host: sgp.rzlftwaa.online
 
