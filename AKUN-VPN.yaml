@@ -60,16 +60,3 @@ proxies:
     path: /vmess-ws
     headers:
       Host: sgp.rzlftwaa.online
- - name: wifi id
-  server: 104.26.6.171
-  port: 443
-  type: trojan
-  password: 0209767b-d060-4dfd-975c-87c2d3aee5cf
-  skip-cert-verify: true
-  sni: 83nx69.onelimited.my.id
-  network: ws
-  ws-opts:
-    path: /trojanws
-    headers:
-      Host: 83nx69.onelimited.my.id
-
