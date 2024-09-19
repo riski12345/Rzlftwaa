@@ -61,15 +61,18 @@ proxies:
     headers:
       Host: sgp.rzlftwaa.online
 - name: INDONESIA 1
+  type: vmess
   server: 104.26.6.171
   port: 443
-  type: trojan
-  password: 930a4c28-49e7-4dfe-95e0-1faa2f2ee62f
-  network: ws
-  sni: herza.rzlftwaa.online
-  skip-cert-verify: true
+  uuid: b61e3b50-3c4a-474d-98a2-5b280aa92d5b
+  alterId: 0
+  cipher: auto
   udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: idn.rzlftwaa.online
+  network: ws
   ws-opts:
-    path: /trojan-ws
+    path: /vmess-ws
     headers:
-        Host: herza.rzlftwaa.online
+      Host: idn.rzlftwaa.online
