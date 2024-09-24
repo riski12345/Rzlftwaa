@@ -63,16 +63,16 @@ proxies:
 - name: INDONESIA 1
   type: vmess
   server: 104.26.6.171
-  port: 443
-  uuid: b61e3b50-3c4a-474d-98a2-5b280aa92d5b
+  port: 80
+  uuid: fd10d2f8-60c7-495f-b849-ba041d86ed86
   alterId: 0
   cipher: auto
   udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: idn.rzlftwaa.online
+  tls: false
+  skip-cert-verify: false
+  servername: coba.suiko-rtrw.xyz
   network: ws
   ws-opts:
-    path: /vmess-ws
+    path: /vmessws
     headers:
-      Host: idn.rzlftwaa.online
+      Host: coba.suiko-rtrw.xyz
