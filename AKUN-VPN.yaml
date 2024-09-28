@@ -60,19 +60,35 @@ proxies:
     path: /vmess-ws
     headers:
       Host: sgp.rzlftwaa.online
-- name: INDONESIA 1
+- name: IKD
   type: vmess
   server: 104.26.6.171
   port: 80
-  uuid: fd10d2f8-60c7-495f-b849-ba041d86ed86
+  uuid: 52b73442-1ee4-4e97-9ec6-240b59a88284
   alterId: 0
   cipher: auto
   udp: true
   tls: false
   skip-cert-verify: false
-  servername: coba.suiko-rtrw.xyz
+  servername: ikd.rzlftwaastudio.online
   network: ws
   ws-opts:
     path: /vmessws
     headers:
-      Host: coba.suiko-rtrw.xyz
+      Host: ikd.rzlftwaastudio.online
+- name: HERZA
+  type: vmess
+  server: 104.26.6.171
+  port: 80
+  uuid: 7b817245-e32d-4114-b7c1-e9e11ae768ce
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: false
+  servername: herza.rzlftwaastudio.online
+  network: ws
+  ws-opts:
+    path: /vmessws
+    headers:
+      Host: herza.rzlftwaastudio.online
