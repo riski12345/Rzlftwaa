@@ -1,7 +1,7 @@
 proxies:
 - name: SINGAPURA 1
   type: vmess
-  server: 104.18.2.2
+  server: 104.26.4.12
   port: 443
   uuid: 0943e5dc-5c38-48a7-97de-8abe8620161a
   alterId: 0
@@ -16,7 +16,7 @@ proxies:
     headers:
       Host: sgp.rzlftwaa.online
 - name: SINGAPURA 2
-  server: 104.18.2.2
+  server: 104.26.4.12
   port: 443
   type: trojan
   password: e59dfce9-5f6e-4ffa-84f4-3ab504498548
@@ -30,7 +30,7 @@ proxies:
         Host: sgp.rzlftwaa.online
 - name: SINGAPURA 3
   type: vmess
-  server: 104.18.2.2
+  server: 104.26.4.12
   port: 80
   uuid: 3354bb03-809c-4bea-8502-ba7bb7ac1055
   alterId: 0
@@ -46,7 +46,7 @@ proxies:
       Host: rzf.zidstore.biz.id
 - name: SINGAPURA 4
   type: vmess
-  server: 104.18.2.2
+  server: 104.26.4.12
   port: 443
   uuid: 692905c1-0d44-4027-91e3-c9a4c5a16ed6
   alterId: 0
@@ -62,7 +62,7 @@ proxies:
       Host: sgp.rzlftwaa.online
 - name: IKD
   type: vmess
-  server: 104.18.2.2
+  server: 104.26.4.12
   port: 80
   uuid: 52b73442-1ee4-4e97-9ec6-240b59a88284
   alterId: 0
