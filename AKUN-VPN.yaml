@@ -1,94 +1,74 @@
 proxies:
-- name: SINGAPURA 1
-  type: vmess
+- name: vvvv
   server: 104.26.7.171
   port: 443
-  uuid: 0943e5dc-5c38-48a7-97de-8abe8620161a
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: sgp.rzlftwaa.online
-  network: ws
-  ws-opts:
-    path: /vmessws
-    headers:
-      Host: sgp.rzlftwaa.online
-- name: SINGAPURA 2
-  server: 104.22.60.94
-  port: 443
   type: trojan
-  password: e59dfce9-5f6e-4ffa-84f4-3ab504498548
+  password: 0e92026f-31a8-4dbe-8267-f0f258901538
   network: ws
-  sni: sgp.rzlftwaa.online
+  sni: vpsku.rzlftwaastudio.online
   skip-cert-verify: true
   udp: true
   ws-opts:
     path: /trojan-ws
     headers:
-        Host: sgp.rzlftwaa.online
-- name: SINGAPURA 3
-  type: vmess
-  server: 104.26.7.171
-  port: 80
-  uuid: 3354bb03-809c-4bea-8502-ba7bb7ac1055
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: false
-  servername: rzf.zidstore.biz.id
-  network: ws
-  ws-opts:
-    path: /vmessws
-    headers:
-      Host: rzf.zidstore.biz.id
-- name: SINGAPURA 4
-  type: vmess
-  server: 104.18.2.2
+        Host: vpsku.rzlftwaastudio.online
+- name:  SG WLG
+  server: ava.game.naver.com
   port: 443
-  uuid: 692905c1-0d44-4027-91e3-c9a4c5a16ed6
-  alterId: 0
+  type: vless
+  uuid: 60fe46c6-1080-4076-9eb1-64fd1f84a100
   cipher: auto
-  udp: true
   tls: true
   skip-cert-verify: true
-  servername: sgp.rzlftwaa.online
+  servername: ava.game.naver.com.24des.rzlftwaastudio.online
   network: ws
   ws-opts:
-    path: /vmess-ws
+    path: /vless
     headers:
-      Host: sgp.rzlftwaa.online
-- name: IKD
-  type: vmess
-  server: 104.26.7.171
-  port: 80
-  uuid: 52b73442-1ee4-4e97-9ec6-240b59a88284
-  alterId: 0
-  cipher: auto
+      Host: ava.game.naver.com.24des.rzlftwaastudio.online
   udp: true
-  tls: false
-  skip-cert-verify: false
-  servername: ikd.rzlftwaastudio.online
-  network: ws
-  ws-opts:
-    path: /vmessws
-    headers:
-      Host: ikd.rzlftwaastudio.online
-- name: HERZA
-  type: vmess
-  server: 104.26.7.171
-  port: 80
-  uuid: 7b817245-e32d-4114-b7c1-e9e11ae768ce
-  alterId: 0
+- name:  VIU
+  server: zaintest.vuclip.com
+  port: 443
+  type: vless
+  uuid: 60fe46c6-1080-4076-9eb1-64fd1f84a100
   cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: false
-  servername: herza.rzlftwaastudio.online
+  tls: true
+  skip-cert-verify: true
+  servername: zaintest.vuclip.com.24des.rzlftwaastudio.online
   network: ws
   ws-opts:
-    path: /vmessws
+    path: /vless
     headers:
-      Host: herza.rzlftwaastudio.online
+      Host: zaintest.vuclip.com.24des.rzlftwaastudio.online
+  udp: true
+- name:  IG
+  server: vip.afrcloud.news
+  port: 443
+  type: vless
+  uuid: 60fe46c6-1080-4076-9eb1-64fd1f84a100
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: graph.instagram.com.24des.rzlftwaastudio.online
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: graph.instagram.com.24des.rzlftwaastudio.online
+  udp: true
+- name:  NETFLIX
+  server: cache.netflix.com
+  port: 443
+  type: vless
+  uuid: 60fe46c6-1080-4076-9eb1-64fd1f84a100
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: cache.netflix.com.24des.rzlftwaastudio.online
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: cache.netflix.com.24des.rzlftwaastudio.online
+  udp: true
