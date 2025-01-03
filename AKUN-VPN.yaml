@@ -1,17 +1,4 @@
 proxies:
-- name: vvvv
-  server: 104.26.7.171
-  port: 443
-  type: trojan
-  password: 0e92026f-31a8-4dbe-8267-f0f258901538
-  network: ws
-  sni: vpsku.rzlftwaastudio.online
-  skip-cert-verify: true
-  udp: true
-  ws-opts:
-    path: /trojan-ws
-    headers:
-        Host: vpsku.rzlftwaastudio.online
 - name:  SG WLG
   server: ava.game.naver.com
   port: 443
