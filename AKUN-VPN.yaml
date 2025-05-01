@@ -1,61 +1,79 @@
 proxies:
+- name:  ID SERVER
+  server: 104.21.28.78
+  port: 443
+  type: trojan
+  password: def17e8b-c088-483e-93c6-a21484a6c709
+  network: ws
+  sni: vpsindo.rzlftwaastudio.online
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: vpsindo.rzlftwaastudio.online
 - name:  SG WLG
   server: ava.game.naver.com
   port: 443
-  type: vless
-  uuid: 60fe46c6-1080-4076-9eb1-64fd1f84a100
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  servername: ava.game.naver.com.24des.rzlftwaastudio.online
+  type: trojan
+  password: ae595a5a-f1aa-4334-b19e-51d076dabcd0
   network: ws
-  ws-opts:
-    path: /vless
-    headers:
-      Host: ava.game.naver.com.24des.rzlftwaastudio.online
+  sni: ava.game.naver.com.2maret.rzlftwaa.web.id
+  skip-cert-verify: true
   udp: true
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: ava.game.naver.com.2maret.rzlftwaa.web.id
+- name:  SG FB
+  server: investor.fb.com
+  port: 443
+  type: trojan
+  password: ae595a5a-f1aa-4334-b19e-51d076dabcd0
+  network: ws
+  sni: investor.fb.com.2maret.rzlftwaa.web.id
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: investor.fb.com.2maret.rzlftwaa.web.id
+- name:  SG NETFLIX
+  server: cache.netflix.com
+  port: 443
+  type: trojan
+  password: ae595a5a-f1aa-4334-b19e-51d076dabcd0
+  network: ws
+  sni: cache.netflix.com.2maret.rzlftwaa.web.id
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: cache.netflix.com.2maret.rzlftwaa.web.id
 - name:  VIU
   server: zaintest.vuclip.com
   port: 443
-  type: vless
-  uuid: 60fe46c6-1080-4076-9eb1-64fd1f84a100
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  servername: zaintest.vuclip.com.24des.rzlftwaastudio.online
+  type: trojan
+  password: ae595a5a-f1aa-4334-b19e-51d076dabcd0
   network: ws
-  ws-opts:
-    path: /vless
-    headers:
-      Host: zaintest.vuclip.com.24des.rzlftwaastudio.online
+  sni: zaintest.vuclip.com.2maret.rzlftwaa.web.id
+  skip-cert-verify: true
   udp: true
-- name:  IG
-  server: vip.afrcloud.news
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: zaintest.vuclip.com.2maret.rzlftwaa.web.id
+- name:  VIU
+  server: zaintest.vuclip.com
   port: 443
-  type: vless
-  uuid: 60fe46c6-1080-4076-9eb1-64fd1f84a100
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  servername: graph.instagram.com.24des.rzlftwaastudio.online
+  type: trojan
+  password: ae595a5a-f1aa-4334-b19e-51d076dabcd0
   network: ws
-  ws-opts:
-    path: /vless
-    headers:
-      Host: graph.instagram.com.24des.rzlftwaastudio.online
-  udp: true
-- name:  NETFLIX
-  server: cache.netflix.com
-  port: 443
-  type: vless
-  uuid: 60fe46c6-1080-4076-9eb1-64fd1f84a100
-  cipher: auto
-  tls: true
+  sni: zaintest.vuclip.com.2maret.rzlftwaa.web.id
   skip-cert-verify: true
-  servername: cache.netflix.com.24des.rzlftwaastudio.online
-  network: ws
-  ws-opts:
-    path: /vless
-    headers:
-      Host: cache.netflix.com.24des.rzlftwaastudio.online
   udp: true
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: zaintest.vuclip.com.2maret.rzlftwaa.web.id
