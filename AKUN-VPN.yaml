@@ -3,7 +3,7 @@ proxies:
   server: 104.21.28.78
   port: 443
   type: trojan
-  password: def17e8b-c088-483e-93c6-a21484a6c709
+  password: 35afdfbe-b15f-449d-9baa-2396a5393a6b
   network: ws
   sni: vpsindo.rzlftwaastudio.online
   skip-cert-verify: true
